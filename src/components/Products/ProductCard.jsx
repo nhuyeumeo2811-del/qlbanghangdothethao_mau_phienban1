@@ -32,7 +32,7 @@ const ProductCard = ({ product }) => {
       setIsLoading(false);
     }
   };
-  
+
   return (
     <div className="product-card">
       <div className="product-image-container">

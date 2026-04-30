@@ -112,7 +112,7 @@ const DetailProduct = () => {
                         localStorage.setItem('cart', JSON.stringify(cart));
 
                         window.dispatchEvent(newEvent('cartUpdated'));
-                        
+
                         navigate('/cart');
                     }}>
                         Mua ngay
